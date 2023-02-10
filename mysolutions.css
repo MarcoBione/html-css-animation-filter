@@ -8,11 +8,20 @@
     background-color: red;
     transition: background-color 0.5s;
 }
+
+
 .ex-2-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: width 4s;
 }
+
+.ex-2-square:active{
+    width: 100%;
+}
+
+
 .ex-3-square {
     width: 100px;
     height: 100px;
