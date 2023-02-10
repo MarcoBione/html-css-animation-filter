@@ -160,6 +160,9 @@
     text-align: center;
     text-decoration: none;
 }
+
+
+
 .ex-12-top-white, .ex-13-top-white {
     position: absolute;
     top: -10px;
@@ -168,6 +171,50 @@
     width: 60px;
     height: 20px;
 }
+
+.ex-12-top-white{
+
+    animation: line 2s linear infinite;
+
+}
+
+@keyframes line{
+
+    0% {
+        left:10%;
+    }
+
+    50% {
+        left: 60%;
+    }
+
+    100% {
+        left:10%;
+    }
+}
+
+.ex-12-bottom-white{
+
+    animation: line-b 2s linear infinite;
+
+}
+
+@keyframes line-b {
+
+    0% {
+        right:10%;
+    }
+
+    50% {
+        right: 60%;
+    }
+
+    100% {
+        right:10%;
+    }
+}
+
+
 .ex-12-bottom-white, .ex-13-bottom-white {
     position: absolute;
     bottom: -10px;
